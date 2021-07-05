@@ -1,0 +1,33 @@
+{
+    "name": "Glass 1",
+    "color": "#ffffff",
+    "map": "/textures/0010/Glass_Frosted_001_basecolor.jpg",
+    "normalMap": "/textures/0010/Glass_Frosted_001_normal.jpg",
+    "normalScale": {
+        "x": 0.2,
+        "y": 0.2
+    },
+    "bumpMap": "",
+    "bumpScale": 0,
+    "displacementMap": "/textures/0010/Glass_Frosted_001_height.png",
+    "displacementScale": 0.005,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/0010/Glass_Frosted_001_roughness.jpg",
+    "roughness": 0.3,
+    "metalnessMap": "/textures/0010/Glass_Frosted_001_roughness.jpg",
+    "metalness": 1,
+    "alphaMap": "",
+    "opacity": 0.2,
+    "aoMap": "/textures/0010/Glass_Frosted_001_ambientOcclusion.jpg",
+    "aoMapIntensity": 0.5,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 0.001,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 1,
+        "v": 1
+    }
+}

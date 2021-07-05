@@ -1,0 +1,33 @@
+{
+    "name": "Metal Matte",
+    "color": "#ffffff",
+    "map": "/textures/0009/worn_metal4_albedo.png",
+    "normalMap": "/textures/0009/worn_metal4_Normal-ogl.png",
+    "normalScale": {
+        "x": 0.3,
+        "y": 0.3
+    },
+    "bumpMap": "",
+    "bumpScale": 0,
+    "displacementMap": "",
+    "displacementScale": 0,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/0009/worn_metal4_Roughness.png",
+    "roughness": 0.7,
+    "metalnessMap": "/textures/0009/worn_metal4_Metallic.png",
+    "metalness": 1,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "",
+    "aoMapIntensity": 0.1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 0.001,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 1,
+        "v": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Watermelon1",
+    "color": "#575757",
+    "map": "/textures/0005/albedo.jpg",
+    "normalMap": "",
+    "normalScale": {
+        "x": 1,
+        "y": 1
+    },
+    "bumpMap": "/textures/0005/bump.jpg",
+    "bumpScale": 0.01,
+    "displacementMap": "",
+    "displacementScale": 0.01,
+    "displacementBias": 0,
+    "roughnessMap": "",
+    "roughness": 0.8,
+    "metalnessMap": "",
+    "metalness": 0.3,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "",
+    "aoMapIntensity": 1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 1,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 1,
+        "v": 1
+    }
+}

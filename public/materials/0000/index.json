@@ -1,0 +1,33 @@
+{
+    "name": "Cheap wood",
+    "color": "#444444",
+    "map": "/textures/0000/albedo.jpg",
+    "normalMap": "",
+    "normalScale": {
+        "x": 1,
+        "y": 1
+    },
+    "bumpMap": "/textures/0000/bump.jpg",
+    "bumpScale": 0.001,
+    "displacementMap": "",
+    "displacementScale": 1,
+    "displacementBias": 0,
+    "roughnessMap": "",
+    "roughness": 0.9,
+    "metalnessMap": "",
+    "metalness": 1,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "",
+    "aoMapIntensity": 1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 1,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 3,
+        "v": 3
+    }
+}

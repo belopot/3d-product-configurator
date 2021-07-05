@@ -1,0 +1,42 @@
+{
+  "name": "3d-product-configurator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.11.3",
+    "@material-ui/styles": "4.11.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "gsap": "^3.6.1",
+    "node-sass": "^4.12.0",
+    "postprocessing": "^6.21.3",
+    "prettier": "2.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.3",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "react-toggle-display": "^2.2.1",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "6.0.0",
+    "redux-thunk": "^2.3.0",
+    "three": "0.127.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "serve": "node server.js",
+    "fix": "prettier -w \"src/**/*.{js,jsx}\"",
+    "lint": "prettier --check \"src/**/*.{js,jsx}\""
+  },
+  "browserslist": [
+    "Chrome >= 60",
+    "Safari >= 11",
+    "iOS >= 11",
+    "Firefox >= 60",
+    "Edge >= 16"
+  ]
+}

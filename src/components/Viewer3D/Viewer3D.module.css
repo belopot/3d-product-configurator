@@ -1,0 +1,16 @@
+.canvasContainer {
+  background-color: rgb(240, 240, 240);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: unset;
+  margin: unset;
+}
+
+.canvasContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+}

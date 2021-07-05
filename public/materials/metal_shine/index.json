@@ -1,0 +1,33 @@
+{
+    "name": "Metal Shine",
+    "color": "#ffffff",
+    "map": "/textures/0008/worn-shiny-metal-albedo.png",
+    "normalMap": "/textures/0008/worn-shiny-metal-Normal-ogl.png",
+    "normalScale": {
+        "x": 0.2,
+        "y": 0.2
+    },
+    "bumpMap": "",
+    "bumpScale": 0,
+    "displacementMap": "",
+    "displacementScale": 0,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/0008/worn-shiny-metal-Roughness.png",
+    "roughness": 0.3,
+    "metalnessMap": "/textures/0008/worn-shiny-metal-Metallic.png",
+    "metalness": 1,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "/textures/0008/worn-shiny-metal-ao.png",
+    "aoMapIntensity": 0.1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 0.001,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 1,
+        "v": 1
+    }
+}

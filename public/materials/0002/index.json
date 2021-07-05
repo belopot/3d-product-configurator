@@ -1,0 +1,33 @@
+{
+    "name": "Leather italian",
+    "color": "#343434",
+    "map": "/textures/0002/albedo.jpg",
+    "normalMap": "/textures/0002/normal.jpg",
+    "normalScale": {
+        "x": 1,
+        "y": 1
+    },
+    "bumpMap": "",
+    "bumpScale": 1,
+    "displacementMap": "/textures/0002/height.jpg",
+    "displacementScale": 0.01,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/0002/roughness.jpg",
+    "roughness": 1,
+    "metalnessMap": "",
+    "metalness": 0,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "",
+    "aoMapIntensity": 1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 1,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 6,
+        "v": 6
+    }
+}

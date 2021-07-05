@@ -1,0 +1,33 @@
+{
+    "name": "Gold old",
+    "color": "#ffffff",
+    "map": "/textures/0001/albedo.jpg",
+    "normalMap": "/textures/0001/normal.jpg",
+    "normalScale": {
+        "x": 1,
+        "y": 1
+    },
+    "bumpMap": "",
+    "bumpScale": 1,
+    "displacementMap": "/textures/0001/height.jpg",
+    "displacementScale": 0.01,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/0001/roughness.jpg",
+    "roughness": 1,
+    "metalnessMap": "/textures/0001/metalness.jpg",
+    "metalness": 1,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "/textures/0001/ao.jpg",
+    "aoMapIntensity": 1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 1,
+    "envMapIntensity": 1,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": {
+        "u": 5,
+        "v": 5
+    }
+}

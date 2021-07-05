@@ -1,0 +1,74 @@
+{
+  "name": "Sample",
+  "description": "Sample description",
+  "envMap": "/envmaps/room1.hdr",
+  "model": "/products/sample/sample.glb",
+  "dracoModel0": "/products/sample/sample_compression_0.glb",
+  "dracoModel1": "/products/sample/sample_compression_1.glb",
+  "dracoModel3": "/products/sample/sample_compression_3.glb",
+  "dracoModel6": "/products/sample/sample_compression_6.glb",
+  "nodes": [
+    {
+      "id": "Sphere",
+      "label": "Sphere",
+      "defaultMesh": "Sphere",
+      "defaultMaterial": {
+        "name": "Rose wood",
+        "path": "/materials/0003/index.json"
+      },
+      "candidateMeshes": [
+        {
+          "id": "Sphere",
+          "label": "Sphere"
+        }
+      ],
+      "candidateMaterials": [
+        {
+          "name": "Cheap wood",
+          "thumbnail": "/materials/sample/preview.jpg",
+          "path": "/materials/sample/index.json"
+        },
+        {
+          "name": "Gold old",
+          "thumbnail": "/materials/0001/preview.jpg",
+          "path": "/materials/0001/index.json"
+        },
+        {
+          "name": "Leather italian",
+          "thumbnail": "/materials/0002/preview.jpg",
+          "path": "/materials/0002/index.json"
+        },
+        {
+          "name": "Rose wood",
+          "thumbnail": "/materials/0003/preview.jpg",
+          "path": "/materials/0003/index.json"
+        },
+        {
+          "name": "Wood",
+          "thumbnail": "/materials/0006/preview.jpg",
+          "path": "/materials/0006/index.json"
+        },
+        {
+          "name": "Worn wood",
+          "thumbnail": "/materials/0007/preview.jpg",
+          "path": "/materials/0007/index.json"
+        },
+        {
+          "name": "Metal Shine",
+          "thumbnail": "/materials/metal_shine/preview.jpg",
+          "path": "/materials/metal_shine/index.json"
+        },
+        {
+          "name": "Metal Matte",
+          "thumbnail": "/materials/metal_matte/preview.jpg",
+          "path": "/materials/metal_matte/index.json"
+        },
+        {
+          "name": "Glass 1",
+          "thumbnail": "/materials/glass_1/preview.jpg",
+          "path": "/materials/glass_1/index.json"
+        }
+      ]
+    }
+  ]
+}
