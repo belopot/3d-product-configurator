@@ -1,27 +1,12 @@
 [
   {
-    "id": "#product_0",
-    "label": "Table",
-    "path": "/products/0000/index.json"
-  },
-  {
-    "id": "#product_2",
-    "label": "Chair",
-    "path": "/products/0002/index.json"
+    "id": "#product_66",
+    "label": "Hoodie",
+    "path": "/products/hoodie/index.json"
   },
   {
     "id": "#product_3",
     "label": "Chair",
     "path": "/products/0003/index.json"
-  },
-  {
-    "id": "#product_4",
-    "label": "Nightstand",
-    "path": "/products/0004/index.json"
-  },
-  {
-    "id": "#product_5",
-    "label": "Panel",
-    "path": "/products/0005/index.json"
   }
 ]

@@ -60,8 +60,10 @@ function Viewer3D(props) {
         node.material.map = null
       } else {
         const texture = g_texture_loader.load(materialData.map)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.map = texture
       }
 
@@ -70,8 +72,10 @@ function Viewer3D(props) {
         node.material.normalMap = null
       } else {
         const texture = g_texture_loader.load(materialData.normalMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.normalMap = texture
 
         node.material.normalScale = new THREE.Vector2(
@@ -85,8 +89,10 @@ function Viewer3D(props) {
         node.material.bumpMap = null
       } else {
         const texture = g_texture_loader.load(materialData.bumpMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.bumpMap = texture
 
         node.material.bumpScale = materialData.bumpScale
@@ -97,8 +103,10 @@ function Viewer3D(props) {
         node.material.displacementMap = null
       } else {
         const texture = g_texture_loader.load(materialData.displacementMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.displacementMap = texture
 
         node.material.displacementScale = materialData.displacementScale
@@ -110,8 +118,10 @@ function Viewer3D(props) {
         node.material.roughnessMap = null
       } else {
         const texture = g_texture_loader.load(materialData.roughnessMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.roughnessMap = texture
       }
 
@@ -122,8 +132,10 @@ function Viewer3D(props) {
         node.material.metalnessMap = null
       } else {
         const texture = g_texture_loader.load(materialData.metalnessMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.metalnessMap = texture
       }
 
@@ -134,8 +146,10 @@ function Viewer3D(props) {
         node.material.alphaMap = null
       } else {
         const texture = g_texture_loader.load(materialData.alphaMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.alphaMap = texture
       }
 
@@ -146,8 +160,10 @@ function Viewer3D(props) {
         node.material.aoMap = null
       } else {
         const texture = g_texture_loader.load(materialData.aoMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.aoMap = texture
 
         node.material.aoMapIntensity = materialData.aoMapIntensity
@@ -158,8 +174,10 @@ function Viewer3D(props) {
         node.material.emissiveMap = null
       } else {
         const texture = g_texture_loader.load(materialData.emissiveMap)
-        texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
-        texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        if (materialData.uvScale) {
+          texture.repeat.set(materialData.uvScale.u, materialData.uvScale.v)
+          texture.wrapS = texture.wrapT = THREE.MirroredRepeatWrapping
+        }
         node.material.emissiveMap = texture
 
         node.material.emissiveIntensity = materialData.emissiveIntensity

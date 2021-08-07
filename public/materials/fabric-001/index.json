@@ -1,0 +1,30 @@
+{
+    "name": "Fabric",
+    "color": "#343434",
+    "map": "/textures/fabric-001/basecolor.png",
+    "normalMap": "/textures/fabric-001/normal.png",
+    "normalScale": {
+        "x": 1,
+        "y": 1
+    },
+    "bumpMap": "",
+    "bumpScale": 0.001,
+    "displacementMap": "/textures/fabric-001/height.png",
+    "displacementScale": 0.0001,
+    "displacementBias": 0,
+    "roughnessMap": "/textures/fabric-001/roughness.png",
+    "roughness": 0.9,
+    "metalnessMap": "/textures/fabric-001/metallic.png",
+    "metalness": 0,
+    "alphaMap": "",
+    "opacity": 1,
+    "aoMap": "/textures/fabric-001/ambientocclusion.png",
+    "aoMapIntensity": 1,
+    "emissive": "#000000",
+    "emissiveMap": "",
+    "emissiveIntensity": 0,
+    "envMapIntensity": 0.01,
+    "wireframe": false,
+    "transparent": true,
+    "uvScale": null
+}
