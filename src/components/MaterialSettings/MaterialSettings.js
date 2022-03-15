@@ -17,8 +17,8 @@ const MaterialSelector = () => {
 
   useEffect(() => {
     if (currentMaterialData) {
-      if (currentMaterialData.uvScale.u !== scale) {
-        setScale(currentMaterialData.uvScale.u)
+      if (currentMaterialData?.uvScale?.u !== scale) {
+        setScale(currentMaterialData?.uvScale?.u)
       }
       if (currentMaterialData.normalScale.x !== normalScale) {
         setNormalScale(currentMaterialData.normalScale.x)
