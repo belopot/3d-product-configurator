@@ -1,9 +1,10 @@
-# 3D Product Configurator
+## 3D Product Configurator
 
-## Live site : https://3d-product-configurator.vercel.app/
+## Live site
+[https://3d-product-configurator.vercel.app/](https://3d-product-configurator.vercel.app/)
 
-## Screen shot : 
-![Bagel](https://github.com/belopot/3d-product-configurator/blob/master/screenshots/image1.jpg)
+## Screenshot
+![](https://github.com/belopot/3d-product-configurator/blob/master/screenshots/image1.jpg)
 
 ## Installation
 - Install [Node.js](https://nodejs.org/en/)
