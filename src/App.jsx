@@ -8,7 +8,6 @@ import appTheme from "./theme"
 import {persistor, store} from "./redux/Store"
 import {ROUTE_HOMEPAGE} from "./constants"
 import Home from "./pages/Home"
-import "./styles/app.scss"
 
 const App = () => {
   return (
