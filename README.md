@@ -5,6 +5,7 @@
 
 ## Screenshot
 ![](https://github.com/belopot/3d-product-configurator/blob/master/screenshots/image1.jpg)
+
 https://user-images.githubusercontent.com/46432435/229830235-b14330ce-c47c-4d05-8074-119891ccb7b8.mp4
 
 
